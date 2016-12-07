@@ -1,0 +1,9 @@
+{{ range where $.Site.Data.logos.logo "id" (.Get 0) }}
+
+    <li>
+        <a href="{{ .link }}" target="_blank">
+            <img class="tplogo" src="{{ .image }}" alt="{{ .alt }}" />
+        </a>
+    </li>
+
+{{ end }}

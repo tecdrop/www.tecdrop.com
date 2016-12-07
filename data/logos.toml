@@ -1,0 +1,47 @@
+# AddictiveTips
+
+[[logo]]
+id    = "addictivetips-iseepass"
+link  = "http://www.addictivetips.com/web/show-and-hide-passwords-in-your-browser-with-the-iseepass-bookmarklet/"
+image = "/img/third/reviews/a/addictivetips/addictivetips.png"
+alt   = "AddictiveTips"
+
+# Freeware.de
+
+[[logo]]
+id    = "freeware-de-iseepass"
+link  = "https://www.freeware.de/download/iseepass/?utm_source=badge&utm_medium=BA&utm_campaign=badge_manufacturer"
+image = "/img/third/reviews/f/freeware.de/freeware.de.png"
+alt   = "Freeware.de"
+
+# GIGA
+
+[[logo]]
+id    = "giga-iseepass"
+link  = "http://www.giga.de/downloads/iseepass/"
+image = "/img/third/reviews/g/giga/giga.png"
+alt   = "GIGA"
+
+# I Love Free Software
+
+[[logo]]
+id    = "ilovefreesoftware-iseepass"
+link  = "http://www.ilovefreesoftware.com/20/webware/online-password-revealer-iseepass.html"
+image = "/img/third/reviews/i/ilovefreesoftware/ilovefreesoftware.png"
+alt   = "I Love Free Software"
+
+# PC WELT
+
+[[logo]]
+id    = "pc-welt-iseepass"
+link  = "http://www.pcwelt.de/tipps/Passwoerter-in-Chrome-sichtbar-machen-9020031.html"
+image = "/img/third/reviews/p/pc-welt/pc-welt.png"
+alt   = "PC WELT"
+
+# Software Informer
+
+[[logo]]
+id    = "software-informer-iseepass"
+link  = "http://iseepass.software.informer.com/"
+image = "/img/third/reviews/s/software-informer/software-informer-excellent-award.png"
+alt   = "Software Informer"

@@ -1,0 +1,4 @@
+
+{{ range $testimonial := where $.Site.Data.testimonials.testimonial "app" (.Get 0) }}
+    {{ partial "review" . }}
+{{ end }}

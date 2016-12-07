@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{ .Title }}</title>
+    <meta name="description" content="{{if .IsHome}}{{ .Site.Params.description }}{{else}}{{ .Description }}{{end}}" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' />
+    <link rel="stylesheet" href="/css/twentyfifteen/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/genericons/3.1/genericons.css" integrity="sha256-KhVW/2gJfZe/j3htXy85fb+TIM/Y3daQEiotDE023gA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/css/style.css">
+    {{ `<!--[if lt IE 9]>
+    <link rel='stylesheet' href='/css/ie.css' type='text/css' media='all' />
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel='stylesheet' href='/css/ie7.css' type='text/css' media='all' />
+    <![endif]-->` | safeHTML }}
+
+    {{ `<!--[if lt IE 9]>
+	<script src="/js/html5.js"></script>
+	<![endif]-->` | safeHTML }}
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+
+    {{ if not .Site.BuildDrafts }}
+    {{ template "_internal/google_analytics.html" . }}
+    {{ end }}
+</head>
+
+<body class="page page-parent page-template-default">
+    <div id="page" class="hfeed site">
+        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+        <div id="sidebar" class="sidebar">
+            <header id="masthead" class="site-header" role="banner">
+                <div class="site-branding">
+                	<p class="site-title"><a href="/" rel="home">Tecdrop</a></p>
+                    <button class="secondary-toggle">Menu and widgets</button>
+                </div><!-- .site-branding -->
+            </header><!-- .site-header -->
+
+            <div id="secondary" class="secondary">
+                <nav id="site-navigation" class="main-navigation" role="navigation">
+                    <div class="menu-main-menu-container">
+                        <ul id="menu-main-menu" class="nav-menu">
+                            <li class="menu-item"><a href="/iseepass/">ISeePass</a></li>
+                            <li class="menu-item"><a href="/rgbcolorwallpaper/">RGB Color Wallpaper</a></li>
+                            <li class="menu-item"><a href="/pitchblackwallpaper/">Pitch Black Wallpaper</a></li>
+                            <li class="menu-item"><a href="/about/">About</a></li>
+                            <li class="menu-item"><a href="/articles/">Articles</a></li>
+                            <li class="menu-item"><a href="/reviews/">Reviews</a></li>
+                            <li class="menu-item"><a href="/contact/">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav><!-- .main-navigation -->
+
+                <nav id="social-navigation" class="social-navigation" role="navigation">
+                    <div class="menu-social-menu-container">
+                        <ul id="menu-social-menu" class="menu">
+                            <li class="menu-item"><a title="Tumblr" target="_blank" href="https://pitchblackwallpaper.tumblr.com/"><span class="screen-reader-text">Tumblr</span></a></li>
+                            <li class="menu-item"><a title="Tumblr" target="_blank" href="https://rgbcolorwallpaper.tumblr.com/"><span class="screen-reader-text">Tumblr</span></a></li>
+                            <li class="menu-item"><a title="GitHub" target="_blank" href="https://github.com/tecdrop"><span class="screen-reader-text">GitHub</span></a></li>
+                        </ul>
+                    </div>
+                </nav><!-- .social-navigation -->
+            </div><!-- .secondary -->
+        </div><!-- .sidebar -->
+
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
+
+                    {{ partial "promo" . }}
