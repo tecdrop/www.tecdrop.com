@@ -24,7 +24,7 @@
 	<![endif]-->` | safeHTML }}
 	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
 
-    {{ if not .Site.BuildDrafts }}
+    {{ if ne (printf "%v" $.Site.BaseURL) "http://localhost:1313/" }}
     {{ template "_internal/google_analytics.html" . }}
     {{ end }}
 </head>
