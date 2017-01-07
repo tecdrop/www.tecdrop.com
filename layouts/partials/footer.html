@@ -6,7 +6,7 @@
             <div class="site-info">
                 <p><a href="/"><img class="logo" src="/img/branding/tecdrop-footer-logo.png" alt="Tecdrop Logo"></a></p>
                 <p class="copyright">
-                    © 2013-2016 Tecdrop. All Rights Reserved.
+                    © 2013-2017 Tecdrop. All Rights Reserved.
                     <span class="links"><a href="/contact/">Contact</a> | <a href="/about/privacy/">Privacy</a></span>
                 </p>
             </div><!-- .site-info -->
@@ -14,9 +14,10 @@
 
     </div><!-- .site -->
 
-    <!--  jQuery from Google CDN -->
+    <!-- Include jQuery from Google CDN, if not already included -->
+    {{ if (not (isset .Params "jquery")) }}    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
+    {{ end }}
     <!-- Twenty Fifteen JavaScript functions -->
     <script type='text/javascript'>
     /* <![CDATA[ */
