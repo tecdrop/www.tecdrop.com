@@ -1,5 +1,5 @@
 <blockquote class="review">
-    <q>{{ .quote | safeHTML }}</q>
+    <q>{{ .quote | safeHTML }}</q>
     <cite>
         {{ if .link }}<a href="{{ .link }}" target="_blank">{{ end }}({{ .source }}){{ if .link }}</a>{{ end }}
     </cite>
