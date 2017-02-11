@@ -139,9 +139,17 @@ blockquote cite {
 	color: white !important;
 }
 
+a.title-link {
+	color: #1a3251;
+}
+
 .post-thumbnail img {
 	background: #e7eaed;
 	background: rgba(26, 51, 82, 0.1);
+}
+
+.social-title {
+	height: 4rem;
 }
 
 
