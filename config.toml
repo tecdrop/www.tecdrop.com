@@ -4,3 +4,5 @@ languageCode = "en-us"
 googleAnalytics = "UA-45980807-1"
 
 disableKinds=["RSS"]
+
+publishDir = "docs"
