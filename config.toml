@@ -1,8 +1,6 @@
 baseurl = "http://www.tecdrop.com/"
 title = "Tecdrop - Free, tiny, minimalist programs and apps"
 languageCode = "en-us"
-disableRSS="true"
 googleAnalytics = "UA-45980807-1"
 
-[params]
-description = "Free, tiny, minimalist, and portable programs and apps, liberated from the hard disk, and dropped on... Tecdrop. Home of ISeePass, RGB Color Wallpaper, ..."
+disableKinds=["RSS"]
