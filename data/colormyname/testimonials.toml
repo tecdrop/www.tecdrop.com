@@ -1,0 +1,14 @@
+[[testimonial]]
+id="colormyname-android-the_lg_v20_user"
+platform = "android"
+quote = "this is a pretty cool app and I think it's interesting"
+source = "The_LG_V20_User Video Review on YouTube"
+link = "https://www.youtube.com/watch?v=zLbRRt_7wcs"
+date = 2017-07-13T00:00:00Z
+
+[[testimonial]]
+id="colormyname-android-userfeedback"
+platform = "android"
+quote = "Well done on this algorithm! My colors, using my names &amp; nicknames through out my life, were actually some of my favorites. You algorized this well. Artists just might be interested in this app when inspiration is lacking. Or drunk college students for an ice breaker..."
+source = "User beta feedback on Google Play"
+date = 2017-06-10T00:00:00Z
