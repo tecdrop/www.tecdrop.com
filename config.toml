@@ -1,8 +1,9 @@
-baseurl = "http://www.tecdrop.com/"
+baseurl = "https://www.tecdrop.com/"
+canonifyURLs = true
 title = "Tecdrop - Free, tiny, minimalist programs and apps"
 languageCode = "en-us"
 googleAnalytics = "UA-45980807-1"
 
 disableKinds=["RSS"]
 
-publishDir = "docs"
+publishDir = "../../Public/GitRepository"
