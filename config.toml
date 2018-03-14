@@ -6,4 +6,3 @@ googleAnalytics = "UA-45980807-1"
 
 disableKinds=["RSS"]
 
-publishDir = "../../Public/GitRepository"
