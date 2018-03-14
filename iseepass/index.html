@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ISeePass - Reveal hidden passwords in your browser</title>
+    <meta name="description" content="Drag the ISeePass bookmarklet to your bookmarks toolbar, and simply click on it when you need X-ray vision to reveal hidden passwords under asterisks." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Noto+Sans%3A400italic%2C700italic%2C400%2C700%7CNoto+Serif%3A400italic%2C700italic%2C400%2C700%7CInconsolata%3A400%2C700&#038;subset=latin%2Clatin-ext' />
+    <link rel="stylesheet" href="https://www.tecdrop.com/css/twentyfifteen/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/genericons/3.1/genericons.css" integrity="sha256-KhVW/2gJfZe/j3htXy85fb+TIM/Y3daQEiotDE023gA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://www.tecdrop.com/css/style.css">
+    <!--[if lt IE 9]>
+    <link rel='stylesheet' href='https://www.tecdrop.com/css/ie.css' type='text/css' media='all' />
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel='stylesheet' href='https://www.tecdrop.com/css/ie7.css' type='text/css' media='all' />
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+	<script src="https://www.tecdrop.com/js/html5.js"></script>
+	<![endif]-->
+	<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
+
+    
+    
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-45980807-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+    
+
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.tecdrop.com/img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.tecdrop.com/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.tecdrop.com/img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="https://www.tecdrop.com/img/favicon/manifest.json">
+    <link rel="mask-icon" href="https://www.tecdrop.com/img/favicon/safari-pinned-tab.svg" color="#ff8200">
+    <link rel="shortcut icon" href="https://www.tecdrop.com/img/favicon/favicon.ico">
+    <meta name="msapplication-config" content="/img/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#1a3352">
+</head>
+
+<body class="page page-parent page-template-default">
+    <div id="page" class="hfeed site">
+        <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+        <div id="sidebar" class="sidebar">
+            <header id="masthead" class="site-header" role="banner">
+                <div class="site-branding">
+                	<p class="site-title"><a href="https://www.tecdrop.com/" rel="home">Tecdrop</a></p>
+                    <button class="secondary-toggle">Menu and widgets</button>
+                </div>
+            </header>
+
+            <div id="secondary" class="secondary">
+                <nav id="site-navigation" class="main-navigation" role="navigation">
+                    <div class="menu-main-menu-container">
+                        <ul id="menu-main-menu" class="nav-menu">
+                            <li class="menu-item"><a href="https://www.tecdrop.com/rgbcolorwallpaper/">RGB Color Wallpaper</a></li>
+                            <li class="menu-item"><a href="https://www.tecdrop.com/colormyname/">Color My Name</a></li>
+                            <li class="menu-item"><a href="https://www.tecdrop.com/pitchblackwallpaper/">Pitch Black Wallpaper</a></li>
+                            <li class="menu-item"><a href="https://www.tecdrop.com/iseepass/">ISeePass</a></li>
+                            <li class="menu-item"><a href="https://www.tecdrop.com/about/">About</a></li>
+                            
+                            <li class="menu-item"><a href="https://www.tecdrop.com/reviews/">Reviews</a></li>
+                            <li class="menu-item"><a href="https://www.tecdrop.com/contact/">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <nav id="social-navigation" class="social-navigation" role="navigation">
+                    <div class="menu-social-menu-container">
+                        <ul id="menu-social-menu" class="menu">
+                            <li class="menu-item"><a title="RGB Color Wallpaper on Tumblr" target="_blank" href="https://rgbcolorwallpaper.tumblr.com/"><span class="screen-reader-text">Tumblr</span></a></li>
+                            <li class="menu-item"><a title="Color My Name on Tumblr" target="_blank" href="https://colormynameapp.tumblr.com/"><span class="screen-reader-text">Tumblr</span></a></li>
+                            <li class="menu-item"><a title="Pitch Black Wallpaper on Tumblr" target="_blank" href="https://pitchblackwallpaper.tumblr.com/"><span class="screen-reader-text">Tumblr</span></a></li>
+                            <li class="menu-item"><a title="ISeePass on Tumblr" target="_blank" href="https://iseepass.tumblr.com/"><span class="screen-reader-text">Tumblr</span></a></li>
+                            <li class="menu-item"><a title="Tecdrop on GitHub" target="_blank" href="https://github.com/tecdrop"><span class="screen-reader-text">GitHub</span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div id="content" class="site-content">
+            <div id="primary" class="content-area">
+                <main id="main" class="site-main" role="main">
+
+                    <article class="status-publish hentry slug-promo">
+    <div class="entry-content">
+        <a class="backlink" href="http://www.east-tec.com/eraser/download/" target="_blank"></a>
+        <div class="promo-bar">
+            <h3 class="lead">Protect your privacy &amp; support the Tecdrop apps</h3>
+            <p class="action"><a class="button" href="http://www.east-tec.com/eraser/download/" target="_blank">Free Download</a></p>
+        </div>
+    </div>
+</article>
+
+
+
+
+    <article class="page type-page status-publish has-post-thumbnail hentry slug-iseepass">
+
+    <div class="post-thumbnail">
+    <img src="https://www.tecdrop.com/img/apps/iseepass/iseepass-featured.png" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="ISeePass"  />
+</div>
+
+
+    <header class="entry-header">
+    <h1 class="entry-title">ISeePass</h1>
+</header>
+
+
+    <div class="entry-content">
+        <h3>See hidden passwords in PC or mobile browsers</h3>
+        <p>Passwords in web browsers are hidden behind asterisks. This is for your protection, but what if you need to
+        see what you are typing, or trying to recover or copy a saved password from behind the asterisks?</p>
+        <p><strong>Use ISeePass.</strong> It's a tiny bookmarklet that instantly reveals all password on a web page.
+        ISeePass works in web browsers across PCs, tablets and smartphones, running Android, iOS, Linux, Mac OS,
+        Windows, and more.</p>
+        <p><strong><a href="https://www.tecdrop.com/iseepass/features/">ISeePass Features</a></strong></p>
+
+        <h2>"Install" ISeePass</h2>
+        <p><a class="button" href='javascript:(function(){var c,b,a;c=document.getElementsByTagName("input");for(b=0;b<c.length;b+=1)a=c[b],a.getAttribute("data-iseepass")?(a.setAttribute("type","password"),a.removeAttribute("data-iseepass")):"password"===a.getAttribute("type")&#038;&#038;(a.setAttribute("type","text"),a.setAttribute("autocomplete","off"),a.setAttribute("data-iseepass","true"))})();'>ISeePass</a></p>
+        <p><b>On a PC:</b> Simply drag the button to your browser's bookmarks bar (Chrome, Firefox, Safari, Opera,
+        etc.)</p>
+        <p><b>On a mobile device:</b> Chrome for Android synchronizes your bookmarks with the PC, so ISeePass should
+        automatically appear on your device. On other mobile browsers (such as Firefox), long tap the button and select
+        <i>Bookmark Link</i>.</p>
+
+        <h2>Selected Reviews</h2>
+        <ul class="logos-grid">
+            
+
+    <li>
+        <a href="http://www.pcwelt.de/tipps/Passwoerter-in-Chrome-sichtbar-machen-9020031.html" target="_blank">
+            <img class="tplogo" src="https://www.tecdrop.com/img/third/reviews/p/pc-welt/pc-welt.png" alt="PC WELT" />
+        </a>
+    </li>
+
+
+
+            
+
+    <li>
+        <a href="http://iseepass.software.informer.com/" target="_blank">
+            <img class="tplogo" src="https://www.tecdrop.com/img/third/reviews/s/software-informer/software-informer-excellent-award.png" alt="Software Informer" />
+        </a>
+    </li>
+
+
+
+            
+
+    <li>
+        <a href="https://www.freeware.de/download/iseepass/?utm_source=badge&amp;utm_medium=BA&amp;utm_campaign=badge_manufacturer" target="_blank">
+            <img class="tplogo" src="https://www.tecdrop.com/img/third/reviews/f/freeware.de/freeware.de.png" alt="Freeware.de" />
+        </a>
+    </li>
+
+
+
+        </ul>
+        <ul class="logos-grid">
+            
+
+    <li>
+        <a href="http://www.giga.de/downloads/iseepass/" target="_blank">
+            <img class="tplogo" src="https://www.tecdrop.com/img/third/reviews/g/giga/giga.png" alt="GIGA" />
+        </a>
+    </li>
+
+
+
+            
+
+    <li>
+        <a href="http://www.ilovefreesoftware.com/20/webware/online-password-revealer-iseepass.html" target="_blank">
+            <img class="tplogo" src="https://www.tecdrop.com/img/third/reviews/i/ilovefreesoftware/ilovefreesoftware.png" alt="I Love Free Software" />
+        </a>
+    </li>
+
+
+
+            
+
+    <li>
+        <a href="http://www.addictivetips.com/web/show-and-hide-passwords-in-your-browser-with-the-iseepass-bookmarklet/" target="_blank">
+            <img class="tplogo" src="https://www.tecdrop.com/img/third/reviews/a/addictivetips/addictivetips.png" alt="AddictiveTips" />
+        </a>
+    </li>
+
+
+
+        </ul>
+
+        
+
+    <blockquote class="review">
+    <q>"Definitely, ISeePass offers a convenient and simple solution to a common problem: forgetting passwords."</q>
+    <cite>
+        <a href="http://iseepass.software.informer.com/" target="_blank">(Software Informer Editor&#39;s Pick Award)</a>
+    </cite>
+</blockquote>
+
+
+
+        
+
+    <blockquote class="review">
+    <q>"ISeePass reveals passwords with one mouse click, with no installation required. This small but nice tool does what it is supposed to do."</q>
+    <cite>
+        <a href="https://www.freeware.de/download/iseepass/?utm_source=badge&amp;utm_medium=BA&amp;utm_campaign=badge_manufacturer" target="_blank">(freeware.de)</a>
+    </cite>
+</blockquote>
+
+
+
+        
+
+    <blockquote class="review">
+    <q>"It's an awesome bookmark-let that, with a click on a button, reveals all password on a page. To restore the asterisks, all you need to do is click on it again."</q>
+    <cite>
+        <a href="http://www.blogsdna.com/25606/reveal-saved-passwords-from-under-asterisks-in-your-web-browser-with-one-click.htm" target="_blank">(Blogsdna)</a>
+    </cite>
+</blockquote>
+
+
+
+        
+
+    <blockquote class="review">
+    <q>"Using ISeePass is surprisingly simple. ... ISeePass makes passwords visible again in the browser at lightning speed."</q>
+    <cite>
+        <a href="http://www.giga.de/downloads/iseepass/" target="_blank">(GIGA Rating: 5 Stars)</a>
+    </cite>
+</blockquote>
+
+
+
+        <p><strong><a href="https://www.tecdrop.com/iseepass/reviews/">More Reviews</a></strong></p>
+
+        <h2>Why Trust ISeePass?</h2>
+        <p>ISeePass is <strong>Free</strong> and <strong>Open Source</strong>. You can easily take a look at its <a
+        href="https://github.com/tecdrop/iseepass" target="_blank">source code on GitHub</a> to check that everything is
+        all right. You can also read the media reviews, ratings, recommendations, and awards on the <a
+        href="https://www.tecdrop.com/iseepass/reviews/">ISeePass Reviews</a> page.</p>
+
+        <h2>More Information</h2>
+        <p><strong><a href="https://www.tecdrop.com/articles/iseepass-one-click-password-revealer/">ISeePass, The One-Click Browser Password
+        Revealer</a></strong></p>
+
+        <h2>Final Warning</h2>
+        <p>Because ISeePass reveals your saved passwords in plain text, it's not recommended to use ISeePass in public
+        places or on public computers. And if you use it at home, it's recommended to keep your system up-to-date, and
+        protected with a strong antivirus and firewall.</p>
+
+        <h2>
+            <a href="http://iseepass.tumblr.com" target="_blank">
+                <img class="social-title" src="https://www.tecdrop.com/img/third/social/tumblr/tumblr-logo.svg" alt="Tumblr" />
+            </a>
+        </h2>
+        <p>Visit ISeePass <a href="http://iseepass.tumblr.com" target="_blank">on Tumblr</a> for more news, reviews and
+        testimonials.</p>
+    </div><!-- .entry-content -->
+
+</article><!-- .page -->
+
+
+
+                </main>
+            </div>
+        </div>
+
+        <footer id="colophon" class="site-footer" role="contentinfo">
+            <div class="site-info">
+                <p><a href="https://www.tecdrop.com/"><img class="logo" src="https://www.tecdrop.com/img/branding/tecdrop-footer-logo.png" alt="Tecdrop Logo"></a></p>
+                <p class="copyright">
+                    © 2013-2017 Tecdrop. All Rights Reserved.
+                    <span class="links"><a href="https://www.tecdrop.com/contact/">Contact</a> | <a href="https://www.tecdrop.com/about/privacy/">Privacy</a></span>
+                </p>
+            </div>
+        </footer>
+
+    </div>
+
+    
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    
+    
+    <script type='text/javascript'>
+     
+    var screenReaderText = {"expand":"<span class=\"screen-reader-text\">expand child menu<\/span>","collapse":"<span class=\"screen-reader-text\">collapse child menu<\/span>"};
+     
+    </script>
+    <script type='text/javascript' src='https://www.tecdrop.com/js/functions.js'></script>
+</body>
+</html>
+

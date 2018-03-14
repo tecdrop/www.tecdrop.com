@@ -1,0 +1,403 @@
+/*
+ Theme Name:   Tecdrop3
+ Theme URI:    http://www.tecdrop.com/
+ Description:  The Tecdrop3 Theme, based on Twenty Fifteen
+ Author:       Tecdrop
+ Author URI:   http://www.tecdrop.com
+ Template:     twentyfifteen
+ Version:      3.0.0
+ Text Domain:  tecdrop3
+*/
+
+/**
+ *	Theme Colors:
+ *
+ *	Orange:			#ff8200		rgba(255, 130, 0, 1)
+ *	Hover Orange:	#cc5010
+ *	Dark Blue:		#1a3352		rgba(26, 51, 82, 1);
+ *
+ */
+
+/**************************************
+ *	Top Level Elements
+ *************************************/
+
+body {
+	background: #ffffff;
+}
+
+body, button, input, select, textarea {
+	color: #1a3251;
+}
+
+blockquote {
+	border-left: 4px solid rgba(26, 50, 81, 0.7);
+	color: rgba(26, 50, 81, 0.7);
+}
+
+blockquote strong, blockquote b {
+	font-weight: bold;
+}
+
+blockquote cite {
+	display: block;
+}
+
+/**************************************
+ *	Sidebar / Header
+ *************************************/
+
+/*.sidebar {
+    position: static !important;
+}*/
+
+.site-title a {
+	text-indent: -9999px;
+
+	background: url("/img/branding/tecdrop-logo-on-light.png") top left / 160px 47px no-repeat;
+	display: inline-block;
+	width: 160px;
+	height: 47px;
+}
+
+/* Sidebar Links */
+
+.secondary a:hover, .secondary a:focus {
+	color: #ff8200;
+}
+
+.social-navigation .wordpress a:before {
+	content: "\f205";
+}
+
+/* Menu button */
+
+.secondary-toggle {
+	background: #1a3352;
+	border-color: #ffffff;
+	border-color: rgba( 255, 255, 255, 0.1);
+	border-radius: 2px;
+}
+
+.secondary-toggle:hover, .secondary-toggle:focus {
+	background: #ff8200;
+	border-color: #ffffff;
+	border-color: rgba( 255, 255, 255, 0.3);
+}
+
+.secondary-toggle:before {
+	color: #ffffff;
+}
+
+
+/**************************************
+ *	Content
+ *************************************/
+
+.entry-content a {
+	color: #ff8200;
+	border-bottom: none;
+}
+
+.entry-content a:hover, .entry-content a:focus {
+	border-bottom: 1px dotted #cc5010;
+	color: #cc5010;
+}
+
+.entry-content h3 a:hover, .entry-content h3 a:focus {
+	border-bottom: none;
+}
+
+.hentry + .hentry {
+	border-top: 0;
+}
+
+.hentry.has-post-thumbnail {
+	padding-top: 7.6923%;
+}
+
+.post-thumbnail {
+	padding: 0 7.6923%;
+}
+
+.button {
+	background-color: #ff8200;
+	border: none !important;
+	border-radius: 2px;
+	color: white !important;
+	display: inline-block;
+	font-family: "Noto Sans", sans-serif;
+	font-weight: 700;
+	padding: 0.5em 1em;
+	text-align: center;
+	/* text-shadow: rgba(0, 0, 0, 0.29) 0px -1px 0px; */
+	transition: background-color 500ms ease;
+}
+
+.button:hover, .button:focus {
+	background-color: #cc5010;
+	color: white !important;
+}
+
+a.title-link {
+	color: #1a3251;
+}
+
+.post-thumbnail img {
+	background: #e7eaed;
+	background: rgba(26, 51, 82, 0.1);
+}
+
+.social-title {
+	height: 4rem;
+}
+
+
+/**************************************
+ *	Content Types
+ *************************************/
+
+
+
+/**************************************
+ *	Special Content
+ *************************************/
+
+/**
+ * Promo Banner
+ */
+
+.slug-promo {
+	background-color: #1a3352;
+	background-image: url("/img/third/east-tec/east-tec-wordle.png");
+	background-size: cover;
+	margin-bottom: 2.4em;
+	min-height: 238px;
+	padding: 0;
+}
+
+.hentry .slug-promo {
+	display: none;
+}
+
+.slug-promo .entry-content {
+	padding: 0;
+}
+
+.slug-promo .backlink {
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.promo-bar {
+	background: rgba(26, 51, 82, 0.70);
+	bottom: 0;
+	color: #fff;
+	font-family: "Noto Sans", sans-serif;
+	font-weight: bold;
+	left: 0;
+	padding: 1em;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
+
+.promo-bar .lead {
+	margin: 0;
+	margin-bottom: 0.7em;
+	margin-bottom: 1rem;
+}
+
+.promo-bar .action {
+	margin: 0;
+}
+
+/**
+ * Pages
+ */
+
+/* Home Page */
+
+.slug-home .entry-header {
+	display: none;
+}
+
+/* Privacy Page */
+
+p.iubenda {
+	margin-bottom: 1.6em !important;
+	text-align: center;
+}
+
+.iubenda-ibadge {
+	transform: scale(2);
+}
+
+/**************************************
+ *	Site Footer
+ *************************************/
+
+.site-footer {
+	background: #1a3352;
+}
+
+.site-info {
+	color: #8d99a9;
+	color: rgba(255, 255, 255, 0.5);
+	text-align: center;
+}
+
+.site-info .logo {
+	width: 160px;
+}
+
+.site-info .copyright {
+	margin-bottom: 0;
+}
+
+.site-info .links {
+	display: block;
+}
+
+.site-info .links a {
+	color: #ff8200;
+	display: inline-block;
+	margin: 0.5em 0.5em 0 0.5em;
+}
+
+.site-info .links a:hover, .site-info .links a:focus {
+	border-bottom: 1px dotted #cc5010;
+	color: #cc5010;
+}
+
+/**************************************
+ *	Media Queries
+ *************************************/
+
+/**
+ * Mobile Large 620px
+ */
+
+@media screen and (min-width: 38.75em) {
+	body {
+		background: #f1f1f1;
+	}
+
+	.site-title a {
+		background: url("/img/branding/tecdrop-logo-on-light.png") top left / 200px 59px no-repeat;
+		width: 200px;
+		height: 59px;
+	}
+
+	.post-thumbnail {
+		padding: 0;
+	}
+
+	.hentry.has-post-thumbnail {
+		padding-top: 0;
+	}
+
+	.site-info .links {
+		display: inline-block;
+	}
+
+	.slug-promo {
+		margin-bottom: 0;
+	}
+
+	p.iubenda {
+		margin-bottom: 0 !important;
+	}
+}
+
+/**
+ * Tablet Small 740px
+ */
+
+@media screen and (min-width: 46.25em) {
+	.promo-bar {
+		display: table;
+		padding: 1em 2em;
+		text-align: left;
+/*		width: 100%;*/
+	}
+
+	.promo-bar .lead, .promo-bar .action {
+		display: table-cell;
+		margin: 0;
+		vertical-align: middle;
+	}
+
+	.promo-bar .lead {
+		padding-right: 2em;
+	}
+
+	.promo-bar .action {
+		min-width: 10em;
+	}
+}
+
+/**
+ * Desktop Small 955px
+ */
+
+@media screen and (min-width: 59.6875em) {
+	body:before {
+		background: #1a3352 url("/img/theme/backgrounds/header-texture.png") repeat;
+	}
+
+	.site-title a {
+		background: url("/img/branding/tecdrop-logo-on-dark.png") top left / 200px 59px no-repeat;
+	}
+
+	.secondary a {
+		color: #ffffff;
+	}
+
+	.main-navigation li {
+		border-color: rgba( 255, 255, 255, 0.1);
+	}
+}
+
+
+.tplogo {
+	max-width: 125px;
+	margin: 0 auto;
+}
+
+.logos-grid {
+	list-style-type: none;
+	margin: 0;
+}
+
+.logos-grid:last-of-type {
+	margin-bottom: 2em;
+}
+
+.logos-grid li {
+	padding: 1em 0;
+}
+
+/* Mobile Large 620px */
+@media screen and (min-width: 31.25em) {
+	.tplogo {
+		max-width: 100%;
+	}
+
+	.logos-grid {
+		display: table;
+		table-layout: fixed;
+		width: 100%;
+	}
+
+	.logos-grid li {
+		display: table-cell;
+		padding: 1em;
+		text-align: center;
+		vertical-align: middle;
+		width: 33.33%;
+	}
+}
