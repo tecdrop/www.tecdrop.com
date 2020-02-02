@@ -11,4 +11,4 @@ Tecdrop was founded in 2013 by [Horațiu Tănescu](https://horatiu.me), cofounde
 
 # Contributing
 
-Contributions are welcome: text, documentation, graphics, suggestions. Please [open an issue](https://github.com/tecdrop/www.tecdrop.com/issues), or [send an email](https://www.tecdrop.com/support/).
+Contributions are welcome: text, documentation, graphics, suggestions. Please [open an issue](https://github.com/tecdrop/www.tecdrop.com/issues), or [send an email](https://www.tecdrop.com/contact/).
